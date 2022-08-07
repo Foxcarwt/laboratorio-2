@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: rgb(165, 165, 184);
+    padding: 40px;
+    border-radius: 20px 20px 0 0;
+    margin: 5px 5px 0 5px;
+}
+
+header>h1, header> h3{
+    margin: 0%;
+    margin-left: 5%;
+    text-shadow: white 2px 2px 5px;
+} 
+header h1{
+    font-size: 90pt;
+}
+ 
+header h3{
+    font-size: 34pt;
+}
+
+header img{
+    margin-top: -1%;
+    width: 400px;
+    float: right;
+    margin-right: 2%;
+    border-radius: 10px;
+}
+
+.barra-menu{
+    height: 10px;
+    background-color: black;
+    margin: 0 5px 0 5px;
+}
+nav ul{
+    background-color: rgb(235, 235, 6);
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+    margin: 0 5px 0 5px;
+    padding: 0.5rem;
+}
+
+.menu>li{ 
+    position: relative;
+    display: inline-block;
+    padding: 10px 60px 10px 60px;
+    font-size: 18pt;  
+    border-right: rgb(255, 255, 255) solid 2px ;
+
+} 
+ .menu .d{
+    border: none;
+}
+.menu>li>a{
+    text-decoration: none;
+    color: black;
+}
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+.submenu{
+    position: absolute;
+    display: block;
+    width: 250px;
+    background-color: rgb(235, 235, 6);
+    margin-top: 1%;
+    border-radius: 8px;
+    padding: 5px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+.menu a:hover{
+color:rgb(185, 6, 6);
+}
+.submenu p:hover{
+    color:rgb(185, 6, 6);
+    }
+
+.container1{
+     width: 400px; 
+    margin-top: 2% ;
+    margin-left: 1%;
+}
+
+.post1{
+    background-color:rgb(165, 165, 184);
+    border-radius: 10px 10px 0 0;
+    height: 300px;
+}
+
+.post1 h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 20px ;
+    margin:auto;
+    
+  }
+
+  table button{
+    margin-left: 29%;
+    background-color: yellow;
+}
+
+.post1 label, .post1 input, .post1 button{
+    padding: 10px;
+}
+
+.post11{
+    margin-top: 3%;
+    height: 335px;
+    background-color: rgb(43, 38, 38);
+}
+.post11 h2{
+    padding: 0;
+    background-color: black;
+    color: yellow;
+    text-align: center;
+   
+}
+.post11 p{
+    text-align: center;
+    color: white;
+    margin: 9px;
+    font-size: 18pt;
+}
+.post11 hr{
+    border:none;
+    margin-left: 10%;
+    width: 80%;
+    height: 0.1px;
+    background-color: rgb(68, 64, 64);
+}
+
+.container2{
+    margin-top: -48%;
+    width: 440px;
+    margin-left: 32.6%;
+}
+.post2{
+    background-color: rgb(165, 165, 184);
+    text-align: center;
+    border-radius: 10px 0 0 0;
+    height: 320px;
+}
+.post2 h2{
+    background-color: black;
+    color: white;
+    border-radius: 10px 0 0 0;
+}
+.post2 p{
+    margin: 20px;
+}
+.post2 img{
+    width: 150px;
+    margin-top: 5%;
+    }
+
+    .post22{
+        margin-top: 2%;
+        background-color: rgb(165, 165, 184);
+        text-align: center;
+        border-radius: 0 0 0 10px;
+        height: 320px;
+    }
+    .post22 h2{
+        background-color: black;
+        color: white;
+        padding: 1rem;
+        
+    }
+    .post22 p{
+        margin: 20px;
+    }
+    .post22 img{
+        width: 150px;
+        margin-top: 5%;
+    }
+
+ .container3{
+    margin-left: 66%;
+    margin-top: -48.1%;
+    width: 440px;
+}
+.post3{
+    background-color: rgb(165, 165, 184);
+    text-align: center;
+    border-radius: 0 10px 0 0;
+    height: 320px;
+}
+.post3 h2{
+    background-color: black;
+    color: white;
+    border-radius: 0 10px 0 0;
+}
+.post3 p{
+    margin: 20px;
+    margin-top: -5%;
+}
+.post3 img{
+    width: 200px;
+    margin-top: -5%;
+}
+
+.post33{
+    margin-top: 2%;
+    background-color: rgb(165, 165, 184);
+    text-align: center;
+    border-radius: 0 0 10px 0;
+    height: 320px;
+}
+.post33 h2{
+    background-color: black;
+    color: white;
+    
+}
+.post33 p{
+    margin: 20px;
+    margin-top: 3%;
+}
+.post33 img{
+    width: 150px;
+    margin-top: 1%;
+}
+main h2{
+    padding: 1rem;
+}
+
+footer{
+    background-color: #222;
+    padding: 1rem;
+    color: #fff;
+    margin-top: 1%;
+}
+
+footer p{
+    margin: 0;
+}
+footer .identidad{
+    float: right;
+}
+footer a{
+    color: #fff;
+    text-decoration:  none;
+}
+
+footer:hover {
+    color: cornflowerblue;
+    transition: all 0.3s;
+}
